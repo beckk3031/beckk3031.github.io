@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Form</title>
+    
+</head>
+<body>
+
+    <h2>Contact Form</h2>
+	
+	<a href="index.html">Home</a> <a href="table.html">Trips</a> <a href="form.html">Forum</a> <a href="https://www.travelalaska.com/" target="_blank">Travel Alaska</a>
+
+    <form>
+        <!-- First Name -->
+        <label for="first-name">First Name:</label>
+        <input style="background-color: lightyellow;" type="text" id="first-name" name="first-name" required>
+        <br><br>
+
+        <!-- Last Name -->
+        <label for="last-name">Last Name:</label>
+        <input style="background-color: lightyellow;" type="text" id="last-name" name="last-name" required>
+        <br><br>
+
+        <!-- Dropdown Menu -->
+        <label for="topic">Have you ever been to Alaska and if so what season?</label>
+        <select id="topic" name="topic">
+            <option value="JavaScript">No</option>
+            <option value="Python">Summer</option>
+            <option value="HTML">Winter</option>
+        </select>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Years of Advebture Experience:</label><br>
+        <input type="radio" id="less3" name="years-experience" value="less3">
+        <label for="email">less than 3 years</label><br>
+        <input type="radio" id="greater3" name="years-experience" value="greater3">
+        <label for="phone">More than 3 years</label><br>
+        <br>
+
+        <!-- Comment Box -->
+        <label for="comments">Comments:</label><br>
+        <textarea rows="10" cols="40" style="background-color: lightyellow;" id="comments" name="comments"></textarea>
+        <br><br>
+
+        <!-- Buttons -->
+        <button style="background-color: orange; color: black;" type="submit" id="submit">Submit</button>
+        <button style="background-color: orange; color: black;" type="reset" id="reset">Reset</button>
+    </form>
+
+</body>
+</html>
